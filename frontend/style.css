@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    width: 100%;
+    background-image: url(poker-background.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.grid-container {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.grid-container-accordion {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: transparent;
+}
+.grid-container-accordion-body {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    background-color: #fff;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    position:sticky; top: 0; 
+    background-color: white;
+    z-index: 2;
+    border: 1px solid black;
+}
+
+.header-accordion{
+    border: 1px solid #ddd;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: white;
+}
